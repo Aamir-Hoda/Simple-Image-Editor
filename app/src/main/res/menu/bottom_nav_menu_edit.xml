@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_edit_view"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/navigation_undo"
+        android:icon="@drawable/ic_undo_black_24dp"
+        android:title="Undo"
+        android:onClick="menuItemSelected" />
+
+    <item
+        android:id="@+id/navigation_crop"
+        android:icon="@drawable/ic_crop_black_24dp"
+        android:title="Crop"
+        android:onClick="menuItemSelected" />
+
+    <item
+        android:id="@+id/navigation_rotate"
+        android:icon="@drawable/ic_rotate_90_black_24dp"
+        android:title="Rotate"
+        android:onClick="menuItemSelected" />
+
+    <item
+        android:id="@+id/navigation_save"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:title="Save"
+        android:onClick="menuItemSelected" />
+
+</menu>
